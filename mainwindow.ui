@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color: rgb(212, 212, 212);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>170</y>
+      <width>761</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Segoe UI Variable Display&quot;;
+margin-right:3%;
+margin-left:3%;
+margin-top:5px;
+border-radius:5px;
+padding: 5px 9px;
+color: rgb(95, 95, 95);
+background-color: rgb(255, 255, 255);
+border-bottom: 2px solid rgb(171, 171, 171);
+border-top: 2px solid rgb(171, 171, 171);
+border-right: 2px solid rgb(171, 171, 171);
+border-left: 2px solid rgb(171, 171, 171);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="openFile">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    margin-right:3%;
+	margin-left:3%;
+	margin-top:5px;
+	border-radius:3px;
+	padding: 5px 9px;
+	color: white;
+	font: 600 12pt &quot;Segoe UI Semibold&quot;;
+	background-color:rgb(95, 95, 95);
+	border-bottom: 4px solid rgb(61, 61, 61);
+	border-top: 2px solid rgb(61, 61, 61);
+	border-right: 2px solid rgb(61, 61, 61);
+	border-left: 2px solid rgb(61, 61, 61);
+}
+QPushButton:hover {
+ margin-right:3%;
+	margin-left:3%;
+	margin-top:5px;
+	border-radius:5px;
+	padding: 5px 9px;
+	color: rgb(95, 95, 95);
+	font: 600 12pt &quot;Segoe UI Semibold&quot;;
+	background-color:rgb(171, 171, 171);
+	border-bottom: 2px solid rgb(95, 95, 95);
+	border-top: 2px solid rgb(95, 95, 95);
+	border-right: 2px solid rgb(95, 95, 95);
+	border-left: 2px solid rgb(95, 95, 95);    
+}
+QPushButton:pressed {
+ margin-right:3%;
+	margin-left:3%;
+	margin-top:5px;
+	border-radius:5px;
+	padding: 5px 9px;
+	color: rgb(95, 95, 95);
+	font: 600 12pt &quot;Segoe UI Semibold&quot;;
+	background-color:rgb(217, 217, 217);
+	border-bottom: 2px solid rgb(95, 95, 95);
+	border-top: 2px solid rgb(95, 95, 95);
+	border-right: 2px solid rgb(95, 95, 95);
+	border-left: 2px solid rgb(95, 95, 95);
+}</string>
+    </property>
+    <property name="text">
+     <string>open file</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="checkFile">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>10</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    margin-right:3%;
+	margin-left:3%;
+	margin-top:5px;
+	border-radius:3px;
+	padding: 5px 9px;
+	color: white;
+	font: 600 12pt &quot;Segoe UI Semibold&quot;;
+	background-color:rgb(95, 95, 95);
+	border-bottom: 4px solid rgb(61, 61, 61);
+	border-top: 2px solid rgb(61, 61, 61);
+	border-right: 2px solid rgb(61, 61, 61);
+	border-left: 2px solid rgb(61, 61, 61);
+}
+QPushButton:hover {
+ margin-right:3%;
+	margin-left:3%;
+	margin-top:5px;
+	border-radius:5px;
+	padding: 5px 9px;
+	color: rgb(95, 95, 95);
+	font: 600 12pt &quot;Segoe UI Semibold&quot;;
+	background-color:rgb(171, 171, 171);
+	border-bottom: 2px solid rgb(95, 95, 95);
+	border-top: 2px solid rgb(95, 95, 95);
+	border-right: 2px solid rgb(95, 95, 95);
+	border-left: 2px solid rgb(95, 95, 95);    
+}
+QPushButton:pressed {
+ margin-right:3%;
+	margin-left:3%;
+	margin-top:5px;
+	border-radius:5px;
+	padding: 5px 9px;
+	color: rgb(95, 95, 95);
+	font: 600 12pt &quot;Segoe UI Semibold&quot;;
+	background-color:rgb(217, 217, 217);
+	border-bottom: 2px solid rgb(95, 95, 95);
+	border-top: 2px solid rgb(95, 95, 95);
+	border-right: 2px solid rgb(95, 95, 95);
+	border-left: 2px solid rgb(95, 95, 95);
+}</string>
+    </property>
+    <property name="text">
+     <string>check file</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="correct">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>50</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Segoe UI Variable Display&quot;;
+margin-right:3%;
+margin-left:3%;
+margin-top:5px;
+border-radius:5px;
+padding: 5px 9px;
+color: rgb(95, 95, 95);
+background-color: rgb(255, 255, 255);
+border-bottom: 2px solid rgb(171, 171, 171);
+border-top: 2px solid rgb(171, 171, 171);
+border-right: 2px solid rgb(171, 171, 171);
+border-left: 2px solid rgb(171, 171, 171);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="pathToFile">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>70</y>
+      <width>451</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 12pt &quot;Segoe UI Variable Display&quot;;
+margin-right:3%;
+margin-left:3%;
+margin-top:5px;
+border-radius:5px;
+padding: 5px 9px;
+color: rgb(95, 95, 95);
+
+background-color: rgb(255, 255, 255);
+border-bottom: 2px solid rgb(171, 171, 171);
+border-top: 2px solid rgb(171, 171, 171);
+border-right: 2px solid rgb(171, 171, 171);
+border-left: 2px solid rgb(171, 171, 171);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>100</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Segoe UI Variable Display&quot;;
+margin-right:3%;
+margin-left:3%;
+margin-top:5px;
+border-radius:5px;
+padding: 5px 9px;
+color: rgb(95, 95, 95);
+background-color: rgb(255, 255, 255);
+border-bottom: 2px solid rgb(171, 171, 171);
+border-top: 2px solid rgb(171, 171, 171);
+border-right: 2px solid rgb(171, 171, 171);
+border-left: 2px solid rgb(171, 171, 171);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>10</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(95, 95, 95);
+font: 600 14pt &quot;Segoe UI Semibold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Correctness:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>80</y>
+      <width>63</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 600 14pt &quot;Segoe UI Semibold&quot;;
+color: rgb(95, 95, 95);</string>
+    </property>
+    <property name="text">
+     <string>Path:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 600 14pt &quot;Segoe UI Semibold&quot;;
+color: rgb(95, 95, 95);</string>
+    </property>
+    <property name="text">
+     <string>File:</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
